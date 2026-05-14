@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #0e1da5;
+    color: white;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(19, 207, 119);
+    margin-bottom: 20px;
+}
+
+.idade-box{
+    margin-top: 15px;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    text-align: center;
+    font-size: 16px;
+}
+
+    button {
+    padding: 12px 24px; /* Aumentei um pouco para dar mais "ar" */
+    border: none;
+    border-radius: 8px;
+    background-color: #14dc3f; /* O seu verde original */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600; /* Texto levemente mais grosso */
+    margin-left: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+button:hover{
+    background-color: rgb(170, 0, 34);
+}
+
+#catalogo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+}
+
+.card{
+    background-color: #8248ec;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    border: 3px solid transparent;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.card img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.conteudo{
+    padding: 15px;
+}
+
+.conteudo h2{
+    margin-bottom: 10px;
+    color: crimson;
+}
+
+.conteudo p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.curiosidade{
+    background-color: #2b2b2b;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.curiosidade strong{
+    color: gold;
+}
+
+/* TERNÁRIO */
+
+.nota-alta{
+    border-color: limegreen;
+}
+
+.nota-baixa{
+    border-color: crimson;
+}
+
+/* PORTA LÓGICA && */
+
+.premium{
+    box-shadow: 0px 0px 20px gold;
+}
+
+/* CONTEÚDO RESTRITO */
+
+.blur{
+    filter: blur(10px);
+}
+
+.restrito{
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: crimson;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
