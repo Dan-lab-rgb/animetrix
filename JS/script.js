@@ -1,4 +1,4 @@
-// script.js
+
 
 const animes = [
 
@@ -115,7 +115,6 @@ const animes = [
 ];
 
 
-// FUNÇÃO PARA MOSTRAR ANIMES
 function mostrarAnimes() {
     const idadeUsuario = parseInt(document.getElementById("idadeUsuario").value);
     const catalogo = document.getElementById("catalogo");
