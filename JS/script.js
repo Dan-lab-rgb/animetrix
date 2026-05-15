@@ -115,6 +115,7 @@ const animes = [
 ];
 
 
+
 function mostrarAnimes() {
     const idadeUsuario = parseInt(document.getElementById("idadeUsuario").value);
     const catalogo = document.getElementById("catalogo");
